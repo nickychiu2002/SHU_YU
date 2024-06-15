@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/d957d8b700.js" crossorigin="anonymous"></script>
+
+    <link href="./assets/icon.ico" rel="shortcut icon" />
+    <title>老鼠防治|豎優生物防治</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* list-style: none; */
+        }
+        html, body{
+            width: 100%;
+            height: 100%;
+            font-family: 'Klee One', cursive;
+            background-color: #F3F8ED;
+        }
+        body {
+            /* background: url(./picture/shuyu12_3.jpg); */
+            background-color: #F3F8ED;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        header {
+            width: 70%;
+            height: 20%;
+            float: left;
+            background-color: rgba(206, 220, 52, 90%);
+            margin: 0px;
+            border: 0px;
+            padding: 0;
+            /* float: left; */
+        }
+        .name {
+            float: left;
+        }
+        .logo_side{
+            color: #F3F8ED;
+            font-size: 25px;
+            float: right;
+            text-align: right;
+            width: 400px;
+            margin-top: 15px;
+            position: relative;
+        }
+        .logo_side_text{
+            color: #F3F8ED;
+        }
+        
+        nav {
+            float: right;
+            background-color: rgba(206, 220, 52, 90%);
+            width: 30%;
+            height: 20%;
+            text-align: right;
+            font-size: 35px;
+            border: 5px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .social{
+            margin-top: 18%;
+        }
+
+        .fa-brands, .fa-brands, .fa-solid{
+            color: #39542A;
+        }
+        .fa-brands:hover, .fa-brands:hover,  .fa-solid:hover{
+            color: #F3F8ED;
+        }
+
+        aside#left {
+            width: 30%;
+            height: 20%;
+            float: left;
+            margin-left: 0px;
+            margin-top: 120px;
+            margin-right: 0px;
+        }
+
+        .side_menw{
+            width: 250px;
+            height: 90%;
+            padding: 20px 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: #F3F8ED;
+            display: flex;
+            flex-direction: column;
+            float: left;
+            position: relative;
+            /* transform: translate(-100%); */
+            transition: 0.5s;
+        }
+        aside#left {
+            width: 10%;
+            height: 20%;
+            float: left;
+            margin: 0;
+        }
+        aside#left a{
+            display: block;
+            color: #daf4cd;
+            text-decoration: none;
+            text-align: center;
+            width: 180px;
+            margin: 0;
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+        .link {
+            width: 200px;
+            height: 50px;
+            margin: auto 0;
+            font-size: 30px;
+            background-color: rgba(180, 196, 5, 0.8);
+            text-align: center;
+            color: #F3F8ED;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            line-height: 180%;
+            border-bottom: 3px solid rgba(119, 128, 17, 0.7);
+            border-left: 4px solid rgba(35, 39, 1, 0.5);
+
+        }
+
+        .link:hover {
+            background-color: rgba(180, 196, 5, 0.4);
+            color: #39542A;
+            border-bottom: 3px solid rgba(134, 168, 93, 0.8);
+            border-left: 5px solid #39542a84;
+        }
+        main{
+            position: relative;
+            width: 80%;
+            height: fit-content;
+            float: right;
+            background-color: #F3F8ED;
+            /* border: 1px solid tomato; */
+        }
+        .title{
+            width: 90%;
+            height: 10%;
+            float: center;
+            text-align: center;
+            margin: 30px;
+            margin-bottom: 50px;
+            /* border: 1px solid tan; */
+            font-size: 30px;
+            color: #39542A;
+        }
+        article{
+            width: 90%;
+            height: 75%;
+            float: center;
+            margin: 30px;
+            /* border: 1px solid teal; */
+            font-size: 25px;
+            color: #39542A;
+        }
+        .li{
+            font-weight: bold;
+        }
+        ol{
+            margin-left: 35px;
+        }
+        article p{
+            font-size: 22px;
+            line-height: 35px;
+        }
+        .red{
+            color: rgb(240, 62, 31);
+        }
+        footer{
+            width: 100%;
+            height: 150px;
+            background-color: #39542A;   
+            color: #F3F8ED;
+            font-size: 15px;
+            clear: both;
+            text-align: center;
+            line-height: 25px;
+            margin: 10px;
+        }
+        .material-icons{
+            line-height: 35px;
+            font-size: 15px;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+    </style>
+</head>    
+<body>
+    <header>
+        <div>
+            <p>&nbsp;</p>
+            <a href="./index.html" target="_blank" title="首頁"><img src="assets/name4.png" alt="" width="500px"></a>            
+        </div>
+    </header>
+    <nav>
+        <div class="social">
+            <a href="https://www.facebook.com/SHUYUPM/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i>&nbsp;&nbsp;</a>
+            <a href="https://line.me/ti/p/eShfoIs1RI" target="_blank"><i class="fa-brands fa-line"> </i>&nbsp;&nbsp;</a>
+            <a href="https://goo.gl/maps/6dYfQK9MBkqhko2E9" target="_blank"><i
+                    class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+    </nav>
+
+    <!-- <input type="checkbox" name="" id="side_menu_switch"> -->
+    <div class="side_menw">
+        <aside id="left">
+            <a href="./index.html" target="_blank"><h2 class="link">首頁</h2></a>
+            <a href="./news.html" target="_blank"><h2 class="link">最新消息</h2></a>
+            <a href="./project.html" target="_blank"><h2 class="link">防治項目</h2></a>
+            <a href="./Q&A.html" target="_blank"><h2 class="link">常見問題</h2></a>
+            <a href="./about.html" target="_blank"><h2 class="link">製作原因</h2></a>
+        </aside>
+        <!-- <label for="side_menu_switch" title="主選單">
+            <i class="fa fa-angle-right"></i>
+        </label> -->
+    </div>
+    <main>
+        <div class="title">
+            <h1>老鼠防治</h1>
+        </div>
+        <article>
+            <ul type="square">
+                <li class="li">介紹</li>
+                    <p>繁殖力強，一對老鼠一年約能繁衍產生數百至千的族群量。</p>
+                    <p>生性謹慎，居住環境需求較高的安全性，故常見於較少頻繁活動或較少環境變更的區域。</p>
+                    <p>食性廣，大多數人類吃的食物，老鼠們都有良好的接受度，進而影響我們的飲食安全。</p>
+                    <p>會磨牙，老鼠的生活習性須不斷磨牙來保持牙齒長度，故時常危害裝潢等物件。</p>
+                    <p>夜習性，老鼠因生性謹慎，大多於周邊較為安靜時進行活動，但若白天就能看見老鼠在活動時，須注意是否環境內鼠量已產生較高密度。</p>
+                    <p>&nbsp;</p>
+                <li class="li">危害</li>
+                    <p>老鼠造成的危害很多，其中之一就是傳播傳染性病原體。</p>
+                    <p>牠們經常出沒在骯髒環境中，可以說它是移動的病菌體也不過分。</p>
+                    <p>細菌和病毒不僅黏附在老鼠的身體表面，也包含在<span class="red">糞便與尿液中</span>。</p>
+                    <p>且具有邊移動邊小便的習性，因此老鼠會於生存環境內<span class="red">邊移動邊傳播病原體</span>。</p>
+                    <p>另外，也有許多通過<span class="red">寄生蟲</span>寄生在老鼠身體，轉而將細菌與病毒感染人類的情況產生。</p>
+                    <p>&nbsp;</p>
+                    <p>以下為老鼠引發的細菌與病毒的傳染性疾病：</p>
+                    <ol>
+                        <li class="li">沙門氏菌</li>
+                            <p>沙門氏菌是老鼠特有的病原體的一種，傷寒菌也是其中之一。</p>
+                            <p>除去傷寒菌的沙門氏菌也稱為食物中毒沙門氏菌，</p>
+                            <p>如其名稱一樣，沙門氏菌主要是引起<span class="red">食物中毒</span>的細菌。</p>
+                            <p>因為沒有預防性藥物，因此目前為止還沒有其它方法可以預防它。</p>
+                            <p>雖然它不是一種死亡率很高的疾病，但是如果幼蟲與老年人受到感染，它很有可能會造成嚴重的影響。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">副傷寒</li>
+                            <p>它是一種由病原菌Salmonella enterica serovar paratyphi A感染引發的疾病，</p>
+                            <p>症狀類似於傷寒，但是值得慶幸的是引發的症狀嚴重性較傷寒來得低。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">傷寒</li>
+                            <p>傷寒是導致<span class="red">食物中毒</span>的傷寒沙門氏菌，傷寒是由感染引起的疾病之一。</p>
+                            <p>主要經由老鼠存在的環境中，受到老鼠身上細菌汙染的食物與飲料等導致傳播，</p>
+                            <p>雖然在全世界都會發生，但大多經常發生在衛生環境惡劣的地方。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">E型肝炎</li>
+                            <p>E型肝炎是病毒性肝炎的一種，</p>
+                            <p>主要經由食用遭<span class="red">經老鼠傳播的細菌汙染</span>的食物而感染。</p>
+                            <p>E型肝炎在孕婦感染的情況下，致死率會提升20%，因此需要特別注意。</p>
+                            <p>肝炎有疫苗，但是目前對應E型的疫苗還沒有產生。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">恙蟲立克次體</li>
+                            <p>老鼠經常身上會依附著寄生蟲，在這些寄生蟲中，有一種遭感染的恙螨，</p>
+                            <p>人類在遭受恙螨刺傷後，就會染上恙蟲立克次體。</p>
+                            <p>雖然老鼠本身並沒有細菌，但可以說是因為老鼠而帶來的疾病。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">鼠咬熱</li>
+                            <p>它是一種由<span class="red">老鼠咬傷</span>引發的疾病，主要是由念珠狀鏈桿菌與小螺旋菌引起的，</p>
+                            <p>發病後遭咬傷的傷口會潰爛，附近出現許多疹子，</p>
+                            <p>發燒約到39度左右，出現頭痛、畏寒、頭痛、肌肉痛、關節腫痛等症狀，</p>
+                            <p>發燒數日後會下降，但是會在反覆發燒數次。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">腎綜合症狀性出血熱</li>
+                            <p>可以說老鼠所持有的代表性病毒就是漢他病毒。</p>
+                            <p>由漢他病毒引起的疾病長期以來被視為世界上原因不明的地方病和怪病。</p>
+                            <p>腎症狀性出血熱是由<span class="red">漢他病毒</span>引起的疾病，<span class="red">通過老鼠排泄物感染</span>。</p>
+                            <p>症狀有發熱、頭痛、腎功能衰竭、皮下及臟器出血等，</p>
+                            <p>但現時還沒有確立以疫苗為首的有效治療方法。</p>
+                            <p><span class="red">沒有明確的治療方法</span>可以說是漢他病毒的危險要點。</p>
+                            <p>因此，必須採用支持性法，腎功能衰竭的症狀嚴重的情况下需要人工透析。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">鼠疫</li>
+                            <p>鼠疫可以說是老鼠帶來的疾病代名詞。</p>
+                            <p>跳蚤吸入了受感染的老鼠血，並通過叮咬而感染。</p>
+                            <p>據說在14世紀的歐洲大流行，失去了當時人口的三成，</p>
+                            <p>雖然也有預防藥和很有效的藥，</p>
+                            <p>但是如果不儘早治療的話，死亡率是很高的危險病。</p>
+                            <p>鼠疫有腺鼠疫、肺鼠疫、敗血性鼠疫等種類，其中危險度最高的是肺鼠疫，</p>
+                            <p>如果不進行適當的治療的話，2~3天就會因呼吸困難而死亡。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">鉤端螺旋體</li>
+                            <p>老鼠的<span class="red">排泄物中</span>含有細鉤端螺旋體菌的，是通過水和土壤感染的病。</p>
+                            <p>細鉤端螺旋體症不僅僅是人類，也是<span class="red">家畜和寵物</span>也會感染的人獸共通感染症之一。</p>
+                            <p>雖然已經開發了疫苗，但是根據細菌的類型不同也有不能支持的情况，所以還沒有達到完全的預防法。</p>
+                            <p>&nbsp;</p>
+                        <li class="li">漢他病毒肺</li>
+                            <p>和腎綜合症狀性出血熱一樣，是由<span class="red">漢他病毒</span>引起的疾病。</p>
+                            <p>雖然會出現類似感冒的症狀，但是會突然重病化，</p>
+                            <p>引起肺水腫（肺積水的狀態）的呼吸困難，死亡率也很高。</p>
+                            <p>但是據說棲息在溝渠地溝鼠帶有這種病毒，需要特別注意。</p>
+                            <p>由於漢他病毒<span class="red">沒有有效的治療方法</span>，所以對於這種病也只能進行支持性療法，</p>
+                            <p>但是它的特徵是即使老鼠感染了人，也<span class="red">不會從人感染到人</span>。</p>
+                            <p>因此，通過滅除老鼠進行防疫，可以降低爆炸性的感染。</p>
+                            <p>如果在家中，發現老鼠的蹤跡，請不要疏忽大意，對於老鼠抱持謹慎的態度應對是很重要的。</p>
+                            <p>&nbsp;</p>
+                    </ol>
+                <li class="li">如何預防</li>
+                    <ol>
+                        <li>
+                            <p>餐具與廚具，使用完畢後儘快清洗。</p>
+                        </li>
+                        <li>
+                            <p>將食物與飲水裝在<span class="red">封閉容器</span>內，以免引來鼠類覓食而造成污染。</p>
+                        </li>
+                        <li>
+                            <p>含有食物的垃圾<span class="red">不可隔夜放置</span>戶外，或使用垃圾筒<span class="red">加蓋</span>，以免引來鼠類。</p>
+                        </li>
+                        <li>
+                            <p>只要「10圓硬幣大小」的孔洞，老鼠便可進出，</p>
+                            <p>因此，修補紗窗門及須<span class="red">封住家周圍所有孔洞及空隙</span>。</p>
+                        </li>
+                        <li>
+                            <p>家裡的木質門板下端被鼠咬壞破損，應加裝鐵片覆蓋，並進行滅鼠。</p>
+                        </li>
+                        <li>
+                            <p>發現鼠類排泄物時，<span class="red">不能直接使用掃帚或吸塵器</span>清理鼠類糞便、尿液或巢穴，</p>
+                            <p>避免引起灰塵飛揚，增加吸入病毒之機會。</p>
+                            <p>應先配戴<span class="red">口罩、橡膠手套</span>及打開門窗，並以稀釋<span class="red">漂白水</span>（100cc市售漂白水+1公升清水）</p>
+                            <p>潑灑於可能被污染的環境，待消毒作用30分鐘後再行清理。</p>
+                        </li>
+                    </ol>
+                    <p>&nbsp;</p>
+            </ul>
+        </article>
+    </main>
+    <footer>
+            <p>&nbsp;</p>
+            <b><h3>&nbsp;&nbsp;豎優生物防治有限公司</h3></b>
+            <b><p><span class="material-icons">call</span>&nbsp;&nbsp;聯絡電話：09-53922099</p></b>
+            <p>有證照的專業防治，合法環境用藥有保障</p>
+            <p>歡迎來電諮詢相關問題，免費現場勘查估價</p>
+    </footer>
+</body>
+</html>

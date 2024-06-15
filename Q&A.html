@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/d957d8b700.js" crossorigin="anonymous"></script>
+
+    <link href="./assets/icon.ico" rel="shortcut icon" />
+    <title>常見問題|豎優生物防治</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        html, body{
+            width: 100%;
+            height: 100%;
+            font-family: 'Klee One', cursive;
+
+        }
+        body {
+            background-color: #F3F8ED;
+        }
+
+        header {
+            width: 70%;
+            height: 20%;
+            float: left;
+            background-color: rgb(210, 223, 73);
+            margin: 0px;
+            border: 0px;
+            padding: 0;
+            /* float: left; */
+        }
+        header img{
+            margin-top: 20px;
+        }
+
+        nav {
+            float: right;
+            background-color: rgb(210, 223, 73);
+            width: 30%;
+            height: 20%;
+            text-align: right;
+            font-size: 35px;
+            border: 5px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .social{
+            margin-top: 18%;
+        }
+
+        .fa-brands, .fa-brands, .fa-solid{
+            color: #39542A;
+        }
+        .fa-brands:hover, .fa-brands:hover,  .fa-solid:hover{
+            color: #F3F8ED;
+        }
+
+        aside#left {
+            width: 10%;
+            height: 20%;
+            float: left;
+            margin: 0;
+        }
+        aside#left a{
+            display: block;
+            color: #daf4cd;
+            text-decoration: none;
+            text-align: center;
+            width: 180px;
+            margin: 0;
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+        .link {
+            width: 200px;
+            height: 50px;
+            font-size: 30px;
+            background-color: rgba(180, 196, 5, 0.8);
+            text-align: center;
+            color: #F3F8ED;
+            left: 30px;
+            line-height: 50px;
+            border-bottom: 3px solid rgba(119, 128, 17, 0.7);
+            border-left: 4px solid rgba(35, 39, 1, 0.5);
+            display: block;
+        }
+        .link:hover {
+            background-color: rgba(180, 196, 5, 0.4);
+            color: #39542A;
+            border-bottom: 3px solid rgba(134, 168, 93, 0.8);
+            border-left: 5px solid #39542a84;
+        }
+        /* QA */
+        main{
+            width: 80%;
+            height: max-content;
+            float: right;
+            margin: 15px;
+            margin-right: 30px;
+            margin-bottom: 200px;
+            /* border: 1px solid #39542A; */
+        }
+        main h1{
+            text-align: center;
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #39542A;
+        }
+        .Qblock{
+            width: 100%;
+        }
+        .Qblock .Q{
+            width: 100%;
+            margin: 0;
+            font-size: 25px;
+            line-height: 60px;
+            color: #39542A;
+            background-color:rgba(206, 220, 52, 40%);
+        }
+        .Qblock ul{
+            position: relative;
+            width: 100%;
+            display: none;
+        }
+        /* .Qblock .Q:hover{
+            background-color: #39542A;
+            color: #F3F8ED;
+        } */
+        .Qblock .Q:hover{
+            background-color:#39542A;
+            color: #F3F8ED;
+        }
+        .Qblock .Q:hover + ul{
+            background-color: #F3F8ED;
+            display: block;
+        }
+        .set{
+            margin-top: 45px;
+        }
+        .inside_set{
+            margin: 20px;
+            margin-left: 30px;
+            font-size: 18px;
+            line-height: 30px;
+        }
+        ol li{
+            list-style-type:decimal;
+            list-style-position:inside;
+        }
+        .arrow{
+            color: rgb(240, 62, 31);
+            font-weight: bold;
+            font-size: 21px;
+        }
+        .red_word{
+            color: rgb(240, 62, 31);
+            font-weight: bold;
+            font-size: 21px;
+        }
+        footer{
+            width: 100%;
+            height: 150px;
+            background-color: #39542A;   
+            color: #F3F8ED;
+            font-size: 15px;
+            clear: both;
+            text-align: center;
+            line-height: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html" target="_blank" title="首頁"><img src="assets/name4.png" alt="" width="500px"></a>
+    </header>
+    <nav>
+        <div class="social">
+            <a href="https://www.facebook.com/SHUYUPM/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i>&nbsp;&nbsp;</a>
+            <a href="https://line.me/ti/p/eShfoIs1RI" target="_blank"><i class="fa-brands fa-line"> </i>&nbsp;&nbsp;</a>
+            <a href="https://goo.gl/maps/6dYfQK9MBkqhko2E9" target="_blank"><i
+                    class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+    </nav>
+    <aside>
+        <!-- <input type="checkbox" name="" id="side_menu_switch"> -->
+        <div class="side_menw">
+            <aside id="left">
+                <a href="./index.html" target="_blank"><h2 class="link">首頁</h2></a>
+                <a href="./news.html" target="_blank"><h2 class="link">最新消息</h2></a>
+                <a href="./project.html" target="_blank"><h2 class="link">防治項目</h2></a>
+                <a href="./about.html" target="_blank"><h2 class="link">製作原因</h2></a>
+            </aside>
+            <!-- <label for="side_menu_switch" title="主選單">
+                <i class="fa fa-angle-right"></i>
+            </label> -->
+        </div>
+    </aside>
+    <main>
+        <h1>常見問題</h1>
+        <ul class="Qblock">
+            
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q1：為什麼我家會有白蟻？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set" class="inside_set">
+                                <p>因為家裡有：</p>
+                                <ol>
+                                    <li>&nbsp;&nbsp;燈光吸引</li>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow">⇒</span>所以，不透光的窗簾很重要！</p>
+                                    <li>&nbsp;&nbsp;潮濕的環境</li>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow">⇒</span>有漏水、壁癌 問題，儘速處理！室內通風與濕度管理，要多注意！</p>
+                                    <li>&nbsp;&nbsp;「木作」的裝潢、家具等......</li>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow">⇒</span>這是它們的食物來源，可提早預防性處理。</p>
+                                </ol>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q2：白蟻防治施作，必須噴藥，感覺好可怕，人會不會中毒啊？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>其實，不用擔心！</p>
+                                <p>白蟻防治施作，大多是將環境用藥，以「鑽孔」灌注藥劑的方式，
+                                    將藥水打入裝潢內部，並不是在現場隨處亂噴。</p>
+                                <p>施作時，偶有溢流出來的部分，擦掉就可以了。</p>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q3：白蟻防治施作完成後，會臭臭的吧？！是不是，要先搬出去住？什麼時候才能住人？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>專業的白蟻防治專用藥劑，並沒有刺鼻的藥水味。</p>
+                                <p>施作完成，只需風乾或自然乾燥（一般來說3-4小時左右），
+                                    空間就可以恢復正常使用，乾燥後完全沒有味道。</p>
+                                <p>合法的環境用藥成份，只要是在標準的稀釋濃度下施作，對人體危害並不高，不需太過擔心。</p>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q4：白蟻防治施作，各家防治業者處理的價格，怎麼都沒有一定標準？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>「一定是不一樣的啊！」</p>
+                                <p>白蟻防治，除了處理「眼前看到的」，我們還要預防「以後有可能再侵入的」。</p>
+                                <p>所以，要處理的範圍，自然比想像的還要多更多。</p>
+                                <p>而每一家業者施作的經驗、工法、細緻度、用藥量，可能都不同。
+                                    施作費用當然就會有所不同。</p>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q5：白蟻入侵，為什麼建議「整間房子」都做防治？不能只做有發現白蟻的地方嗎？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>因為白蟻都是外來的，發現有白蟻入侵，</p>
+                                <p>代表的是，附近整個地區都有白蟻的危害，隨時都可能會「<span class="red_word">再入侵</span>」！</p>
+                                <p>因為，白蟻的特性，就是默默地在木作裝潢中生存並擴散，</p>
+                                <p>有一處發現它們的蹤跡，但其實它們，早就不知道開枝散葉到哪裡去了。</p>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q6：碳化木可以預防白蟻，使用這種建材就不用擔心白蟻入侵了，真的嗎？</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;家裡的木作選用的是高級的紫檀木，這種木頭比較辣，白蟻不會吃，真的嗎？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>依據豎優的現場經驗，「 <span class="red_word">沒有白蟻不會吃的木頭</span> 」。</p>
+                                <p>對白蟻來說，只有要不要吃，沒有會不會吃的問題。</p>
+                                <p>的確它也有不喜歡吃的木頭。</p>
+                                <p>當環境中，同時有較軟、較硬兩種木頭時，白蟻會先挑比較軟的木頭吃，</p>
+                                <p>不過在沒得選擇的時候，再硬它也會啃咬侵蝕的。</p>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q7：垃圾已經有很清楚地管理了，蟑螂為什麼會來？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>既然已經認真的在管理了，就別忘了</p>
+                                <ol>
+                                    <li>&nbsp;&nbsp;廚餘桶，隨時加蓋</li>
+                                    <li>&nbsp;&nbsp;垃圾一定要每天打包帶離場所</li>
+                                    <li>&nbsp;&nbsp;清理垃圾桶附近環境，不要有殘留的湯水</li>
+                                    <li>&nbsp;&nbsp;垃圾袋時常更換</li>
+                                </ol>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q8：為什麼蟑螂防治建議「定期施作」？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>無論是以「餌膠」或是「噴藥」作為防治手段，其實都無法殺死「卵鞘」（蟑螂蛋）。</p>
+                                <p>因此，<span class="red_word">為了創造一個不易蟑螂滋生的環境</span>，定期防治非常重要！</p>
+                                <p>嚴重的場域，在防治初期，更是建議先縮短施作間隔，待控制住後，依照現場狀況，
+                                    決定所需要的防治週期。</p>
+                                <p>有效控制蟲害，也可以更經濟。</p>
+                                <p>效果不好的防治施，10次/每月，也沒有施作的意義。</p>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q9：家裡發現老鼠入侵，怎麼辦？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <ol>
+                                    <li>&nbsp;&nbsp;餐具與廚具，使用完畢後儘快清洗。</li>
+                                    <li>&nbsp;&nbsp;將食物與飲水裝在封閉容器內，以免引來鼠類覓食。</li>
+                                    <li>&nbsp;&nbsp;含有食物的垃圾不可隔夜置放戶外，或使用垃圾筒加蓋，以免引來鼠類。</li>
+                                    <li>&nbsp;&nbsp;只要「10圓硬幣大小」的孔洞，老鼠便可進出，因此，
+                                                    修補紗窗門及須封住家周圍所有孔洞及空隙。</li>
+                                    <li>&nbsp;&nbsp;家裡的木質門板下端被鼠咬壞破損，應加裝鐵片覆蓋，並進行滅鼠。</li>
+                                    <li>&nbsp;&nbsp;發現鼠類排泄物時，<span class="red_word">不能直接使用掃帚或吸塵器清理</span>
+                                                    鼠類糞便、尿液或巢穴，避免引起灰塵飛揚，增加吸入病毒之機會。</li>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;應先配戴口罩、橡膠手套及打開門窗，
+                                                    並以稀釋漂白水（100cc市售漂白水+1公升清水）潑灑於可能被污染的環境，待消毒作用30分鐘後再行清理。</p>
+                                </ol>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q10：蚊蟲防治，施作後，可以維持多久？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>客人都希望：只要噴過一次藥，一整年都沒蚊蟲。</p>
+                                <p>但，這是不可能的啦！</p>
+                                <p>&nbsp;</p>
+                                <p>一般蚊蟲的防治，以水霧方式施作為例：</p>
+                                <p>大約能維持「兩週」左右的殘效（熱煙霧槍 效果只有當下）。</p>
+                                <p>防治區域若為「室外」，受到天氣因素的影響，殘效的時間，可能會比較短。</p>
+                                <p>建議可以搭配「<span class="red_word">生長調節劑（不怕水）</span>」，灑佈於「<span class="red_word">容易積水</span>」的區域，
+                                    控制幼蟲的滋生，延長防治的效果。</p>
+                            </li>
+                        </ul>
+                </li>
+            </div>
+            
+            <div class="set">
+                <li>
+                    <div class="Q">
+                        <p>&nbsp;&nbsp;&nbsp;Q11：為什麼蟲害防治需要現場勘查？</p>
+                    </div>
+                        <ul>
+                            <li class="inside_set">
+                                <p>首先，當然是為了確認<span class="red_word">蟲害的種類</span>和現場受蟲害侵入的<span class="red_word">嚴重程度</span>。</p>
+                                <p>常常有客人不清楚到底是什麼蟲害，又或者，說要處理蟑螂問題，但其實現場老鼠的問題更加嚴重。</p>
+                                <p>這樣的情況下，若只做蟑螂，對環境沒有徹底地改善(如：理台排水管與地排沒有密封、環境潮溼等)，</p>
+                                <p>就是治標不治本，無論蟑螂或是老鼠問題都無法長久的解決。</p>
+                                <p>&nbsp;</p>
+                                <p>再來，是<span class="red_word">確認現場的環境狀況</span>。</p>
+                                <p>室內、室外、樓高、是否有嬰幼兒、是否有養寵物 等 ……。</p>
+                                <p>種種條件都關係著「防治方式」與「環境用藥」的選擇，
+                                    也關係著現場施作的難易度，蟲害防治的價格也會因而不同。
+                                    </p>
+                            </li>
+                        </ul>
+                </li>
+            
+        </ul>
+        
+    </main>
+    <footer>
+        <p>&nbsp;</p>
+            <b><h3>&nbsp;&nbsp;豎優生物防治有限公司</h3></b>
+            <b><p><span class="material-icons">call</span>&nbsp;&nbsp;聯絡電話：09-53922099</p></b>
+            <p>有證照的專業防治，合法環境用藥有保障</p>
+            <p>歡迎來電諮詢相關問題，免費現場勘查估價</p>
+    </footer>
+</body>
+</html>

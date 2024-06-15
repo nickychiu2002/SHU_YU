@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/d957d8b700.js" crossorigin="anonymous"></script>
+
+    <link href="./assets/icon.ico" rel="shortcut icon" />
+    <title>首頁|豎優生物防治</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        html, body{
+            width: 100%;
+            height: 100%;
+            font-family: 'Klee One', cursive;
+        }
+        body {
+            background: url(./picture/shuyu12_3.jpg);
+            background-color: #39542A;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        header {
+            width: 70%;
+            height: 20%;
+            float: left;
+            background-color: rgba(206, 220, 52, 60%);
+            margin: 0px;
+            border: 0px;
+            padding: 0;
+            /* float: left; */
+        }
+        .name {
+            float: left;
+        }
+        .logo_side{
+            color: #F3F8ED;
+            font-size: 25px;
+            float: right;
+            text-align: right;
+            width: 400px;
+            margin-top: 15px;
+            position: relative;
+        }
+        .logo_side_text{
+            color: #F3F8ED;
+        }
+        
+        nav {
+            float: right;
+            background-color: rgba(206, 220, 52, 60%);
+            width: 30%;
+            height: 20%;
+            text-align: right;
+            font-size: 35px;
+            border: 5px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .social{
+            margin-top: 18%;
+        }
+
+        .fa-brands, .fa-brands, .fa-solid{
+            color: #39542A;
+        }
+        .fa-brands:hover, .fa-brands:hover,  .fa-solid:hover{
+            color: #F3F8ED;
+        }
+
+        aside#left {
+            width: 30%;
+            height: 20%;
+            float: left;
+            margin-left: 0px;
+            margin-top: 120px;
+            margin-right: 0px;
+        }
+
+        .side_menw{
+            width: 250px;
+            height: 90%;
+            padding: 20px 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            float: left;
+            position: relative;
+            transform: translate(-100%);
+            transition: 0.5s;
+        }
+        .side_menw label{
+            position: absolute;
+            width: 20%;
+            height: 30%;
+            background-color: transparent;
+            color: #39542A;
+            right: -20%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            line-height: 80px;
+            text-align: center;
+            font-size: 45px;
+            border-radius: 0 10px 10px 0;
+            cursor: pointer;
+        }
+        #side_menu_switch{
+            position: absolute;
+            opacity: 0;
+        }
+        #side_menu_switch:checked + .side_menw{
+            transform: translateX(0);
+            background-color: transparent;
+        }
+        #side_menu_switch:checked + .side_menw label .fa{
+            transform: scale(-1);
+        }
+        aside#left a{
+            display: block;
+            color: #daf4cd;
+            text-decoration: none;
+            position: relative;
+            text-align: center;
+        }
+        aside#left a + a::before{
+            content: '';
+            border-top: 1px solid #daf4cd;
+            left: 10px;
+            right: 10px;
+            top: 0;
+        }
+
+        .link {
+            width: 200px;
+            height: 50px;
+            margin: auto 0;
+            font-size: 30px;
+            background-color: rgba(206, 220, 52, 80%);
+            text-align: center;
+            color: #F3F8ED;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            line-height: 180%;
+            border-bottom: 3px solid rgba(119, 128, 17, 0.7);
+            border-left: 4px solid rgba(35, 39, 1, 0.5);
+
+        }
+
+        .link:hover {
+            background-color: rgba(243, 248, 237, 80%);
+            color: #39542A;
+            border-bottom: 3px solid rgba(199, 215, 179, 0.5);
+            border-left: 5px solid #39542a;
+        }
+
+        aside#right {
+            width: 40%;
+            height: 160px;
+            float: right;
+            background-color: rgba(206, 220, 52, 80%);
+            margin-top: 400px;
+            text-align: left;
+            box-shadow: rgba(104, 112, 15, 0.6);
+            border-bottom: 3px solid rgba(119, 128, 17, 0.7);
+            border-right: 3px solid rgba(35, 39, 1, 0.5);
+            
+        }
+
+        .right_h1 {
+            /* text-align: left; */
+            color: #39542A;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 0;
+            line-height: 50px;
+        }
+        footer{
+            width: 100%;
+            height: 150px;
+            background-color: #39542A;   
+            color: #F3F8ED;
+            font-size: 15px;
+            clear: both;
+            text-align: center;
+            line-height: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .material-icons{
+            line-height: 35px;
+            font-size: 15px;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+    </style>
+</head>    
+<body>
+    <header>
+        <div>
+            <p>&nbsp;</p>
+            <img src="assets/header.png" alt="" width="1000px">
+            
+        </div>
+    </header>
+    <nav>
+        <div class="social">
+            <a href="https://www.facebook.com/SHUYUPM/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i>&nbsp;&nbsp;</a>
+            <a href="https://line.me/ti/p/eShfoIs1RI" target="_blank"><i class="fa-brands fa-line"> </i>&nbsp;&nbsp;</a>
+            <a href="https://goo.gl/maps/6dYfQK9MBkqhko2E9" target="_blank"><i
+                    class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+    </nav>
+
+    <input type="checkbox" name="" id="side_menu_switch">
+    <div class="side_menw">
+        <aside id="left">
+            <a href="./news.html" target="_blank"><h2 class="link">最新消息</h2></a>
+            <a href="./project.html" target="_blank"><h2 class="link">防治項目</h2></a>
+            <a href="./Q&A.html" target="_blank"><h2 class="link">常見問題</h2></a>
+            <a href="./about.html" target="_blank"><h2 class="link">製作原因</h2></a>
+        </aside>
+        <label for="side_menu_switch" title="主選單">
+            <i class="fa fa-angle-right"></i>
+        </label>
+    </div>
+    <aside id="right">
+        <div class="right_h1">
+            <h1><b>專業病媒防治業者</b></h1>
+            <h2>為您規劃最適合的蟲害防治方式</h2>
+        </div>
+    </aside>
+    <footer>
+            <p>&nbsp;</p>
+            <b><h3>&nbsp;&nbsp;豎優生物防治有限公司</h3></b>
+            <b><p><span class="material-icons">call</span>&nbsp;&nbsp;聯絡電話：09-53922099</p></b>
+            <p>有證照的專業防治，合法環境用藥有保障</p>
+            <p>歡迎來電諮詢相關問題，免費現場勘查估價</p>
+            <p>&nbsp;</p>
+    </footer>
+</body>
+</html>
